@@ -1,0 +1,30 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import 'variable';
+@import 'topbar';
+@import 'header';
+
+
+body {
+    font-family: $primary-font-family;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+  
+    @include media-breakpoint-down(lg) {
+      font-size: 14px;
+    }
+  }
+  
+  .container-fluid {
+    max-width: 1320px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+  }
